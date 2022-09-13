@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    background: white;
     padding: 10px 20px;
 }
 
@@ -21,3 +22,63 @@ h1{
     vertical-align: middle;
 }
 
+.container{
+    background: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+.button1{
+    margin: 10px 0px 10px 30px;
+    background-color: #45ABEA;
+    color: white;
+}
+
+.button2{
+    background-color: white;
+    color: lightgrey;
+}
+
+.botton{
+    padding: 10px;
+    border-radius: 5px;
+    border: lightgrey;
+    border-style: solid;
+}
+
+h2{
+    margin: 20px;
+}
+
+small{
+    background: #45ABEA;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+div{
+    margin: 10px;
+}
+
+.check{
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    color: green;
+    display: inline-block;
+}
+
+.cross{
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    color: red;
+    display: inline-block;
+}
